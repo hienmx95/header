@@ -26,7 +26,7 @@
     "react": "16.x"
   },
   "devDependencies": {
-    "@fwork/frontend-helper": "git+https://gitlab+deploy-token-9:8o6zezinekvs7A5e98Bx@git.fpt.work/fpt.work/helper/frontend-helper.git#v1.5.3",
+    "@fwork/frontend-helper": "https://github.com/hienmx95/frontend-helper.git",
     "antd": "^3.25.1",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.13.0",
