@@ -1,0 +1,23 @@
+import * as React from 'react';
+
+function SvgComponent (props) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={16}
+      height={16}
+      viewBox="0 0 16 16"
+      {...props}
+    >
+      <g data-name="Group 11123">
+        <path
+          data-name="Combined Shape"
+          d="M3.729 14a1.332 1.332 0 01-1.33-1.33V4.663a1.332 1.332 0 011.33-1.33h.67v-.666a.667.667 0 011.334 0v.667h5.332v-.667a.667.667 0 011.334 0v.667h.67a1.332 1.332 0 011.33 1.329v8.007a1.332 1.332 0 01-1.33 1.33zm.17-2.188a.664.664 0 00.662.664h7.677a.663.663 0 00.661-.664V6.381h-9zm6.5-.478V10h1.334v1.334zm-2.666 0V10h1.333v1.334zm-2.667 0V10h1.333v1.334zm5.333-2.667V7.333h1.334v1.334zm-2.666 0V7.333h1.333v1.334zm-2.667 0V7.333h1.333v1.334z"
+          fill="#5c6a82"
+        />
+      </g>
+    </svg>
+  );
+}
+
+export default SvgComponent;
